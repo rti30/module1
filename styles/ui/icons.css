@@ -1,0 +1,50 @@
+:root {
+  --tail-length: 20 100;
+}
+.icon-arrow {
+  --stroke-color: #9c69e2;
+  --stroke-width: 2;
+  width: 45px;
+  height: 16px;
+  transition: left 0.3s ease;
+  position: relative;
+  left: -20px;
+}
+.reverse {
+  transform: rotate(180deg);
+  left: 20px;
+}
+.icon-arrow--white {
+  --stroke-color: #fff;
+}
+.effect-tail .arrow-tail,
+.effect-tail.arrow-tail {
+  transition: stroke-dasharray 0.3s ease;
+  stroke-dasharray: var(--tail-length);
+}
+
+.effect-tail:hover .icon-arrow,
+.effect-tail:hover.icon-arrow {
+  --tail-length: 40 100;
+  left: 0;
+}
+
+.soc-facebook {
+  width: 10px;
+  height: 20px;
+}
+
+.soc-insta {
+  width: 16px;
+  height: 16px;
+}
+
+.soc-twitter {
+  width: 19px;
+  height: 15px;
+}
+
+.swiper-nav {
+  cursor: pointer;
+  padding: 10px 5px;
+}

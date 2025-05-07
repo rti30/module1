@@ -1,0 +1,32 @@
+@import "../init.css";
+@import "../ui/btn.css";
+@import "../ui/icons.css";
+@import "../components/header.css";
+@import "../components/preview.css";
+@import "../components/about.css";
+@import "../components/features.css";
+@import "../components/reviews.css";
+@import "../components/footer.css";
+
+.page {
+  background: linear-gradient(180deg, #f6fafd 0%, #fff 100%);
+}
+
+.header,
+.preview,
+.features {
+  padding: 50px 0;
+}
+.reviews {
+  padding: 50px 0 100px;
+}
+
+@media (min-width: 1280px) {
+  .preview,
+  .features {
+    padding: 75px 0;
+  }
+  .reviews {
+    padding: 75px 0 150px;
+  }
+}

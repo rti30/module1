@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="fav/favicon.svg" />
+    <link rel="shortcut icon" href="fav/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="fav/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fav/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <title>Warehouse - Save your data storage here.</title>
+    <meta
+      name="description"
+      content="Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others."
+    />
+    <meta
+      name="keywords"
+      content="warehouse, save, data, security, storage, area"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Warehouse - Save your data storage here."
+    />
+    <meta
+      property="og:title"
+      content="Warehouse - Save your data storage here."
+    />
+    <meta
+      property="og:description"
+      content="Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others."
+    />
+
+    <meta property="og:url" content="https://rti30.github.io/rtom1/" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:image" content="og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="styles/init.css" />
+    <link rel="stylesheet" href="styles/pages/index.css" />
+    <script type="module" defer src="js/index.js"></script>
+    <style>
+      .arrow-tail {
+        transition: stroke-dasharray 0.3s ease;
+      }
+    </style>
+  </head>
+
+  <body>
+    <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-arrow" viewBox="0 0 45 16">
+        <path
+          class="arrow arrow-arrow"
+          d="M35 15L41 8L35 1"
+          stroke="var(--stroke-color)"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"
+        />
+        <path
+          class="arrow-tail"
+          stroke-dasharray="var(--tail-length)"
+          d="M41 8L1 8"
+          stroke="var(--stroke-color)"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+    </svg>
+    <div class="page">
+      <header class="header">
+        <div class="content-width">
+          <div class="header__body">
+            <a href="/" class="header__logo logo">
+              <img src="img/logo.svg" alt="logo" />
+            </a>
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item nav__item--active">
+                  <a href="#about">About</a>
+                </li>
+                <li class="nav__item"><a href="#help">Help</a></li>
+                <li class="nav__item"><a href="#features">Features</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="preview">
+          <div class="second-width">
+            <div class="preview__body">
+              <h1 class="preview__title title">Save your data storage here.</h1>
+              <div class="preview__img img-contain">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="img/preview/preview.webp"
+                  />
+                  <img
+                    src="img/preview/preview-m.webp"
+                    alt="Secure data storage interface"
+                  />
+                </picture>
+              </div>
+              <p class="preview__text text-sp">
+                <span class="nowrap">Data Warehouse</span> is a data storage
+                area that has been tested for security, so you can store your
+                data here safely but not be afraid of being stolen by others.
+              </p>
+              <a class="preview__btn btn" href="#about">
+                <button aria-label="learn more" class="btn__btn" type="button">
+                  Learn more
+                </button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <div class="content-width">
+            <div class="about__body">
+              <div class="about__img img-cover">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="img/about/about.webp"
+                  />
+                  <img
+                    src="img/about/about.webp"
+                    alt="Data Warehouse security illustration"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <h2 class="about__title sub-title">
+                We are a high-level data storage bank
+              </h2>
+              <p class="about__text text">
+                The place to store various data that you can access at any time
+                through the internet and where you can carry it. This very
+                flexible storage area has a high level of security. To enter
+                into your own data you must enter the password that you created
+                when you registered in this
+                <span class="nowrap">Data Warehouse</span>.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features">
+          <div class="content-width">
+            <div class="features__body">
+              <h2 class="features__title sub-title t-c">Features</h2>
+              <div class="features__desc text text--sp t-c">
+                Some of the features and advantages that we provide for those of
+                you who store data in this
+                <span class="nowrap">Data Warehouse</span>.
+              </div>
+              <ul class="features-list">
+                <li class="features-item">
+                  <div class="features-item__bg">
+                    <img src="img/features/bg-1.svg" alt="" loading="lazy" />
+                  </div>
+                  <picture class="features-item__img img-contain">
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="img/features/1.webp"
+                    />
+                    <img src="" alt="" loading="lazy" />
+                  </picture>
+                  <div class="features-item__content">
+                    <h3 class="features-item__title h3">Search Data</h3>
+                    <p class="features-item__text">
+                      Don’t worry if your data is very large, the Data Warehoue
+                      provides a search engine, which is useful for making it
+                      easier to find data effectively saving time.
+                    </p>
+                    <a href="#" class="features__more effect-tail">
+                      <span>Learn more</span>
+                      <svg class="icon-arrow">
+                        <use href="#icon-arrow" />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+                <li class="features-item">
+                  <div class="features-item__bg">
+                    <img src="img/features/bg-2.svg" alt="" loading="lazy" />
+                  </div>
+                  <picture class="features-item__img img-contain">
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="img/features/2.webp"
+                    />
+                    <img src="" alt="" loading="lazy" />
+                  </picture>
+                  <div class="features-item__content">
+                    <h3 class="features-item__title h3">24 Hours Access</h3>
+                    <p class="features-item__text">
+                      Access is given 24 hours a full morning to night and meet
+                      again in the morning, giving you comfort when you need
+                      data when urgent.
+                    </p>
+                    <a href="#" class="features__more effect-tail">
+                      <span>Learn more</span>
+                      <svg class="icon-arrow">
+                        <use href="#icon-arrow" />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+                <li class="features-item">
+                  <div class="features-item__bg">
+                    <img src="img/features/bg-3.svg" alt="" loading="lazy" />
+                  </div>
+                  <picture class="features-item__img img-contain">
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="img/features/3.webp"
+                    />
+                    <img src="" alt="" loading="lazy" />
+                  </picture>
+                  <div class="features-item__content">
+                    <h3 class="features-item__title h3">Print Out</h3>
+                    <p class="features-item__text">
+                      Print out service gives you convenience if someday you
+                      need print data, just edit it all and just print it.
+                    </p>
+                    <a href="#" class="features__more effect-tail">
+                      <span>Learn more</span>
+                      <svg class="icon-arrow">
+                        <use href="#icon-arrow" />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+                <li class="features-item">
+                  <div class="features-item__bg">
+                    <img src="img/features/bg-1.svg" alt="" loading="lazy" />
+                  </div>
+                  <picture class="features-item__img img-contain">
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="img/features/1.webp"
+                    />
+                    <img src="" alt="" loading="lazy" />
+                  </picture>
+                  <div class="features-item__content">
+                    <h3 class="features-item__title h3">Security Code</h3>
+                    <p class="features-item__text">
+                      Data Security is one of our best facilities. Allows for
+                      your files to be safer. The file can be secured with a
+                      code or password that you created, so only you can open
+                      the file.
+                    </p>
+                    <a href="#" class="features__more effect-tail">
+                      <span>Learn more</span>
+                      <svg class="icon-arrow">
+                        <use href="#icon-arrow" />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="content-width">
+            <div class="reviews__body">
+              <h2 class="reviews__title sub-title sub-title--white">
+                Testimonials
+              </h2>
+              <div class="reviews-slider">
+                <div class="swiper-wrapper review__list">
+                  <div class="swiper-slide review">
+                    <div class="review__icon">
+                      <img
+                        src="img/reviews/John-Fang.webp"
+                        alt="John Fang"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h3 class="review__name">John Fang</h3>
+                    <div class="review__position">wordfaang.com</div>
+                    <div class="review__text">
+                      Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                      viverra enim erat tortor ultricies massa turpis. Arcu
+                      pulvinar aenean nam laoreet nulla.
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-next review">
+                    <div class="review__icon">
+                      <img
+                        src="img/reviews/Jeny-Doe.png"
+                        alt="Jeny Doe"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h3 class="review__name">Jeny Doe</h3>
+                    <div class="review__position">UX Engineer</div>
+                    <div class="review__text">
+                      Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                      viverra enim erat tortor
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-next review">
+                    <div class="review__icon">
+                      <img
+                        src="img/reviews/William.webp"
+                        alt="William"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h3 class="review__name">William</h3>
+                    <div class="review__position">Web Designer</div>
+                    <div class="review__text">
+                      Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                      viverra enim erat tortor
+                    </div>
+                  </div>
+                </div>
+                <footer class="reviews-footer">
+                  <div class="swiper-pagination">
+                    <span
+                      class="swiper-pagination-bullet swiper-pagination-bullet--active"
+                    ></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                  </div>
+                  <div class="reviews-ctrl">
+                    <button
+                      aria-label="previous"
+                      type="button"
+                      class="swiper-nav effect-tail"
+                    >
+                      <svg class="icon-arrow icon-arrow--white reverse">
+                        <use href="#icon-arrow" />
+                      </svg>
+                    </button>
+                    <button
+                      aria-label="next"
+                      type="button"
+                      class="swiper-nav effect-tail"
+                    >
+                      <svg class="icon-arrow icon-arrow--white">
+                        <use href="#icon-arrow" />
+                      </svg>
+                    </button>
+                  </div>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="help">
+        <div class="content-width">
+          <div class="footer__body">
+            <div class="footer__logo">
+              <a href="/"> <img src="img/logo.svg" alt="" /></a>
+              <h2 class="footer__title"><a href="/">DataWarehouse</a></h2>
+            </div>
+            <address class="footer__address">
+              <p>Warehouse Society, 234</p>
+              <p>Bahagia Ave Street PRBW 29281</p>
+            </address>
+            <div class="footer__contacts">
+              <a href="mailto:info@warehouse.project" class="footer__email">
+                info@warehouse.project
+              </a>
+              <div class="footer__tel nowrap">
+                <a href="tel:1-232-3434"> 1-232-3434 </a>
+                (Main)
+              </div>
+            </div>
+            <div class="footer__social social">
+              <h3 class="social__title">Social Media</h3>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a
+                    aria-label="facebook"
+                    class="social__link"
+                    target="_blank"
+                    href="#"
+                  >
+                    <svg class="soc-facebook">
+                      <use
+                        xlink:href="img/sprite-soc.svg?ver1#icon-facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a
+                    aria-label="twitter"
+                    class="social__link"
+                    target="_blank"
+                    href="#"
+                  >
+                    <svg class="soc-twitter">
+                      <use
+                        xlink:href="img/sprite-soc.svg?ver1#icon-twitter"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a
+                    aria-label="instagram"
+                    class="social__link"
+                    target="_blank"
+                    href="#"
+                  >
+                    <svg class="soc-insta">
+                      <use
+                        xlink:href="img/sprite-soc.svg?ver1#icon-insta"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__rights">
+              <p>
+                <span class="nowrap">© Datawarehouse™, 2020.</span>
+                All rights reserved.
+              </p>
+              <p>Company Registration Number: 21479524.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

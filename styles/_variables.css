@@ -1,0 +1,11 @@
+:root {
+  --font-family: "Ubuntu";
+  --font-size: 16px;
+  --main-weight: 400;
+  --c-main: #212353;
+  --c-text: #4b5d68;
+  --c-second: #fff;
+  --c-light: #9c69e2;
+  --bg-main: #fff;
+  --main-border-radius: 50px;
+}
