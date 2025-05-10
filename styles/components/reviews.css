@@ -42,14 +42,15 @@
 }
 
 .review {
-  background-color: var(--bg-main);
-  box-shadow: 0 10px 0px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  padding: 40px 12px 40px 20px;
   display: grid;
   align-content: start;
   gap: 0 31px;
   grid-template-areas: "icon name _" "icon position _" "icon position _" "text text text";
+  padding: 40px 12px 40px 20px;
+  border: 1px solid var(--c-light);
+  border-radius: 20px;
+  background-color: var(--bg-main);
+  box-shadow: 0 10px 0px 0 rgba(0, 0, 0, 0.25);
 }
 
 .review-active {
