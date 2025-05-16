@@ -68,7 +68,6 @@
 
 @media (min-width: 768px) {
   .features__desc {
-    font-size: 18px;
     max-width: 590px;
   }
 

@@ -15,9 +15,6 @@
 }
 
 @media (min-width: 768px) {
-  .preview__text {
-    font-size: 18px;
-  }
   .preview__img {
     max-width: 675px;
     max-height: 357px;
